@@ -1,0 +1,139 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "picture": "https://i.ibb.co/Yd4Z48P/Health.png",
+        "title": "Advanced Health Monitor",
+        "category": "Health",
+        "category_bg_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "The Advanced Health Monitor is a cutting-edge wearable device that tracks your vital signs and provides real-time health insights. Stay on top of your well-being with this state-of-the-art device. It measures your heart rate, blood pressure, and more, ensuring you are always in the best possible health. Whether you're an athlete or just want to keep tabs on your health, this monitor is your ideal companion. Get it now and take control of your well-being.",
+        "price": "$199.99"
+      },
+      {
+        "id": 2,
+        "picture": "https://i.ibb.co/hKn5TqX/Education.png",
+        "title": "Online Learning Platform",
+        "category": "Education",
+        "category_bg_color": "#FF444A33",
+        "card_bg_color": "#FF444A26",
+        "text_color": "#FF444A",
+        "description": "Our Online Learning Platform is your gateway to a world of knowledge. With a vast library of courses taught by experts, you can enhance your skills, earn certifications, and unlock new career opportunities. Whether you're a student, professional, or lifelong learner, our platform caters to your educational needs. Explore our diverse range of courses today and embark on your learning journey.",
+        "price": "$49.99"
+      },
+      {
+        "id": 3,
+        "picture": "https://i.ibb.co/JHQF6f7/Clothing.png",
+        "title": "Fashionable Wardrobe Essentials",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Upgrade your wardrobe with our collection of Fashionable Wardrobe Essentials. Discover the latest trends and timeless classics that will keep you looking stylish year-round. From casual wear to formal attire, we have something for every occasion. Elevate your fashion game and make a statement with our high-quality clothing. Shop now and redefine your style.",
+        "price": "$79.99"
+      },
+      {
+        "id": 4,
+        "picture": "https://i.ibb.co/P43760B/Food.png",
+        "title": "Gourmet Food Basket",
+        "category": "Food",
+        "category_bg_color": "#F8714733",
+        "card_bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Indulge in a culinary adventure with our Gourmet Food Basket. Packed with exquisite flavors, this basket is a treat for your taste buds. From artisanal cheeses to fine chocolates, each item is carefully selected to delight your senses. Whether you're gifting it to a loved one or treating yourself, this gourmet basket is a celebration of gastronomic delights. Order now and savor the finer things in life.",
+        "price": "$29.99"
+      },
+      {
+        "id": 5,
+        "picture": "https://i.ibb.co/P43760B/Food.png",
+        "title": "Gourmet Cooking Class",
+        "category": "Food",
+        "category_bg_color": "#F8714733",
+        "card_bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Embark on a culinary journey with our Gourmet Cooking Class. Led by top chefs, this hands-on experience teaches you the art of gourmet cooking. From mastering complex techniques to creating exquisite dishes, you'll gain culinary expertise. Whether you're a novice or an experienced cook, our classes cater to all skill levels. Unleash your inner chef and savor the joy of cooking.",
+        "price": "$69.99"
+      },
+      {
+        "id": 6,
+        "picture": "https://i.ibb.co/JHQF6f7/Clothing.png",
+        "title": "Eco-Friendly Clothing Line",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Discover our Eco-Friendly Clothing Line, where fashion meets sustainability. We believe in fashion that doesn't harm the planet. Our collection features clothing made from organic materials and recycled fabrics. Every purchase supports eco-conscious practices, making you a part of the solution. Embrace sustainable fashion and make a positive impact on the environment. Shop now and dress responsibly.",
+        "price": "$299.99"
+    },
+      {
+        "id": 7,
+        "picture": "https://i.ibb.co/hKn5TqX/Education.png",
+        "title": "Online Master's Degree",
+        "category": "Education",
+        "category_bg_color": "#FF444A33",
+        "card_bg_color": "#FF444A26",
+        "text_color": "#FF444A",
+        "description": "Achieve academic excellence with our Online Master's Degree programs. Designed for working professionals, our flexible courses allow you to earn an advanced degree without disrupting your career. Whether you're pursuing an MBA, an M.Sc., or another field of study, our accredited programs provide the knowledge and skills you need to succeed. Take the next step in your education and open new doors of opportunity.",
+        "price": "$59.99"
+      },
+     
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/Yd4Z48P/Health.png",
+        "title": "Smart Health Assistant",
+        "category": "Health",
+        "category_bg_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "The Smart Health Assistant is your personal wellness companion. It provides 24/7 monitoring of your health and offers personalized recommendations to help you lead a healthier life. Whether you're managing chronic conditions or simply aiming to stay fit, this assistant has you covered. It tracks your activity, sleep, and more, ensuring you stay on the path to well-being. Invest in your health with this intelligent assistant.",
+        "price": "$9.99"
+      },
+   
+      {
+        "id": 9,
+        "picture": "https://i.ibb.co/Yd4Z48P/Health.png",
+        "title": "Fitness Tracker",
+        "category": "Health",
+        "category_bg_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "Get active and stay healthy with our Fitness Tracker. This sleek wearable device is your fitness companion, helping you achieve your wellness goals. It monitors your steps, calories burned, and heart rate, making every workout count. With its stylish design and user-friendly app, fitness has never been this enjoyable. Take the first step towards a healthier you.",
+        "price": "$39.99"
+      },
+      {
+        "id": 10,
+        "picture": "https://i.ibb.co/hKn5TqX/Education.png",
+        "title": "Language Learning App",
+        "category": "Education",
+        "category_bg_color": "#FF444A33",
+        "card_bg_color": "#FF444A26",
+        "text_color": "#FF444A",
+        "description": "Master a new language with our Language Learning App. Whether you're traveling the world or expanding your career opportunities, language proficiency is key. Our app offers interactive lessons, real-life scenarios, and personalized learning plans. From Spanish to Mandarin, you can choose from a wide range of languages. Start your language journey today and break down communication barriers.",
+        "price": "$149.99"
+      },
+      {
+        "id": 11,
+        "picture": "https://i.ibb.co/JHQF6f7/Clothing.png",
+        "title": "Sustainable Fashion Collection",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Experience fashion with a conscience through our Sustainable Fashion Collection. We're committed to eco-friendly and ethical fashion practices. Our collection features clothing made from organic fibers, recycled materials, and sustainable processes. When you choose sustainable fashion, you make a statement about your values and commitment to the planet. Explore our collection and wear your values.",
+        "price": "$129.99"
+      },
+      {
+        "id": 12,
+        "picture": "https://i.ibb.co/P43760B/Food.png",
+        "title": "Farm-to-Table Dining Experience",
+        "category": "Food",
+        "category_bg_color": "#F8714733",
+        "card_bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Treat your taste buds to a Farm-to-Table Dining Experience. Savor the flavors of locally sourced, fresh ingredients prepared by skilled chefs. Whether it's a romantic dinner or a family celebration, our farm-to-table concept ensures every dish is a masterpiece. Join us for an unforgettable dining experience that celebrates nature's bounty. Reserve your table now.",
+        "price": "$19.99"
+      }
+    ]
+  }
+  
