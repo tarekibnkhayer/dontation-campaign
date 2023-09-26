@@ -4,7 +4,6 @@ import Card from "./Card";
 
 const Cards = () => {
     const [json, setJson] = useState([]);
-    console.log(json);
     useEffect(() => {
     fetch("../../public/donation.json")
     .then(res => res.json())
