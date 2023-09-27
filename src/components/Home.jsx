@@ -11,7 +11,7 @@ const Home = () => {
     const [data, setData] = useState([]);
     const [display, setDisplay] = useState([]);
     useEffect(() =>{
-        fetch("donation.json")
+        fetch("/data.json")
         .then(res => res.json())
         .then(data => {
             setData(data.data);

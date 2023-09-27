@@ -12,7 +12,6 @@ const Donation = () => {
     const data = allData.data;
     useEffect(() => {
         const storedDonatedIds = getStoredDonatedCards();
-        // const storedIds = parseInt(storedDonatedIds);
         if(data?.length > 0){
             const donated = data.filter(datum => storedDonatedIds.includes(datum.id));
             setDonatedCards(donated);
