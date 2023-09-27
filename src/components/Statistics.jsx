@@ -5,8 +5,8 @@ import Chart from 'react-apexcharts'
 const Statistics = () => {
     const totalDonations = useLoaderData();
     const yourDonations = getStoredDonatedCards();
-    const yourDonationsLength = yourDonations.length
-    const totalDonationsLength = totalDonations.data.length - yourDonationsLength;
+    const yourDonationsLength = yourDonations?.length
+    const totalDonationsLength = totalDonations?.data?.length - yourDonationsLength;
 
     return (
     <React.Fragment className='lg:max-w-6xl md:max-w-2xl mx-auto max-w-sm '>

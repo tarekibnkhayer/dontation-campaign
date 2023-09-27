@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        texture : `url("../../src/assets/Rectangle 4281.png")`,
+        texture : `url("https://i.ibb.co/xGHr2YL/Rectangle-4281.png")`,
       },
     },
   },

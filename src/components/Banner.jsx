@@ -12,7 +12,7 @@ const Banner = () => {
         setSearchText(e.target.value);
     };
     const handleSearch = () => {
-        const searchedDatum = data.filter(datum => searchText.includes(datum.category));
+        const searchedDatum = data?.filter(datum => searchText.includes(datum.category));
         console.log(searchedDatum)
         setDisplay(searchedDatum);
     };
