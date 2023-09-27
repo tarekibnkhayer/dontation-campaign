@@ -7,7 +7,6 @@ const Statistics = () => {
     const yourDonations = getStoredDonatedCards();
     const yourDonationsLength = yourDonations.length
     const totalDonationsLength = totalDonations.data.length - yourDonationsLength;
-    console.log(yourDonationsLength, totalDonationsLength);
 
     return (
     <React.Fragment>

@@ -4,26 +4,32 @@ import Banner from "./Banner";
 import Cards from "./Cards";
 export const SearchContext = createContext();
 export const DataContext = createContext();
-
+export const DisplayContext = createContext();
 
 const Home = () => {
     const [searchText, setSearchText] = useState();
     const [data, setData] = useState([]);
-    
-    console.log(data);
+    const [display, setDisplay] = useState([]);
     useEffect(() =>{
         fetch("donation.json")
         .then(res => res.json())
-        .then(data => setData(data.data))
+        .then(data => {
+            setData(data.data);
+            setDisplay(data.data);
+        })
     },[]);
+    
+    console.log(data, display);
             return (
                 <div>
-                <DataContext.Provider value={[data, setData]}>
+              <DisplayContext.Provider value={[display, setDisplay]}>
+              <DataContext.Provider value={[data, setData]}>
          <SearchContext.Provider value={[searchText, setSearchText]}>
            <Banner></Banner>
           <Cards></Cards>
            </SearchContext.Provider>
          </DataContext.Provider>
+              </DisplayContext.Provider>
                 </div>
     );
 };

@@ -1,16 +1,17 @@
 import { useContext } from "react";
 import Card from "./Card";
-import { DataContext } from "./Home";
+import {  DisplayContext } from "./Home";
 
 
 const Cards = () => {
-    const [data] = useContext(DataContext);
+
+    const [display] = useContext(DisplayContext);
    
     return (
         <div className="mt-24" >
             <div className="grid grid-cols-4 max-w-6xl mx-auto gap-6">
                 {
-                    data.map(card => <Card card={card} key={card.id}></Card> )
+                    display.map(card => <Card card={card} key={card.id}></Card> )
                 }
             </div>
         </div>

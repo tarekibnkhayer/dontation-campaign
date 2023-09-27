@@ -1,22 +1,21 @@
 import { useContext } from "react";
-import { DataContext, SearchContext } from "./Home";
+import { DataContext, DisplayContext, SearchContext } from "./Home";
 
 const Banner = () => {
     const [searchText, setSearchText] = useContext(SearchContext);
-    const [data, setData] = useContext(DataContext);
+    const [data] = useContext(DataContext);
+    const [display ,setDisplay] = useContext(DisplayContext);
+    console.log(display);
    
-   
-    const handleSearch = () => {
-        const searchedDatum = data.filter(datum => searchText.includes(datum.category));
-        setData(searchedDatum);
-    };
+    
     const handleSearchText = e => {
         setSearchText(e.target.value);
     };
-    console.log(searchText);
-    console.log(data);
-    
-  
+    const handleSearch = () => {
+        const searchedDatum = data.filter(datum => searchText.includes(datum.category));
+        console.log(searchedDatum)
+        setDisplay(searchedDatum);
+    };
     return (
         <div  className="mt-4" >
             <div className=" w-full h-[500px] bg-[#FFFFFFF2] bg-texture bg-cover bg-center bg-blend-color-burn">
