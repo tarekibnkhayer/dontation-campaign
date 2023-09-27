@@ -25,7 +25,7 @@
       {
         "id": 3,
         "picture": "https://i.ibb.co/JHQF6f7/Clothing.png",
-        "title": "Fashionable Wardrobe Essentials",
+        "title": "Wardrobe Essentials",
         "category": "Clothing",
         "category_bg_color": "#79C23F33",
         "card_bg_color": "#79C23F26",
@@ -115,7 +115,7 @@
       {
         "id": 11,
         "picture": "https://i.ibb.co/JHQF6f7/Clothing.png",
-        "title": "Sustainable Fashion Collection",
+        "title": "Fashion Collection",
         "category": "Clothing",
         "category_bg_color": "#79C23F33",
         "card_bg_color": "#79C23F26",
@@ -126,7 +126,7 @@
       {
         "id": 12,
         "picture": "https://i.ibb.co/P43760B/Food.png",
-        "title": "Farm-to-Table Dining Experience",
+        "title": "Farm-to-Table Dining",
         "category": "Food",
         "category_bg_color": "#F8714733",
         "card_bg_color": "#F8714726",

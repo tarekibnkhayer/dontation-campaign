@@ -4,11 +4,11 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between max-w-6xl mx-auto mt-14 items-center'>
+        <div className='md:flex justify-between lg:max-w-6xl md:max-w-2xl mx-auto mt-14 items-center max-w-sm '>
             <div>
-               <img src={Logo} alt="" />
+               <img src={Logo} alt="" className='w-full' />
             </div>
-            <div className='flex gap-12 text-lg'>
+            <div className='flex lg:gap-12 gap-6 text-lg justify-center mt-14 md:mt-0   '>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/donation">Donation</NavLink>
                 <NavLink to="/statistics">Statistics</NavLink>

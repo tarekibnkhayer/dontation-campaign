@@ -9,11 +9,11 @@ const Statistics = () => {
     const totalDonationsLength = totalDonations.data.length - yourDonationsLength;
 
     return (
-    <React.Fragment>
-        <div>
+    <React.Fragment className='lg:max-w-6xl md:max-w-2xl mx-auto max-w-sm '>
+        <div className='lg:ml-[500px] lg:mt-24 md:ml-52 md:mt-12 '>
             <Chart
             type='pie'
-            width={1300}
+            width={400}
             height={550}
             series={[totalDonationsLength, yourDonationsLength]} 
             options={
