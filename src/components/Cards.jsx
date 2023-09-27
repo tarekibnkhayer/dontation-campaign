@@ -1,19 +1,16 @@
-import { useEffect, useState  } from "react";
+import { useContext } from "react";
 import Card from "./Card";
+import { DataContext } from "./Home";
 
 
 const Cards = () => {
-    const [json, setJson] = useState([]);
-    useEffect(() => {
-    fetch("../../public/donation.json")
-    .then(res => res.json())
-    .then(data => setJson(data.data))}
-    ,[])
+    const [data] = useContext(DataContext);
+   
     return (
         <div className="mt-24" >
             <div className="grid grid-cols-4 max-w-6xl mx-auto gap-6">
                 {
-                    json.map(card => <Card card={card} key={card.id}></Card> )
+                    data.map(card => <Card card={card} key={card.id}></Card> )
                 }
             </div>
         </div>

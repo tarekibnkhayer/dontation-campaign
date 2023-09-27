@@ -1,21 +1,21 @@
-import { useEffect, useState } from "react";
+import { useContext } from "react";
+import { DataContext, SearchContext } from "./Home";
 
 const Banner = () => {
-    const [searchText, setSearchText] = useState();
-    const [data, setData] = useState([]);
-    useEffect(() =>{
-        fetch("donation.json")
-        .then(res => res.json())
-        .then(data => setData(data.data))
-    },[]);
+    const [searchText, setSearchText] = useContext(SearchContext);
+    const [data, setData] = useContext(DataContext);
+   
+   
     const handleSearch = () => {
         const searchedDatum = data.filter(datum => searchText.includes(datum.category));
-        console.log(searchedDatum);
+        setData(searchedDatum);
     };
     const handleSearchText = e => {
         setSearchText(e.target.value);
-    }
-   
+    };
+    console.log(searchText);
+    console.log(data);
+    
   
     return (
         <div  className="mt-4" >
